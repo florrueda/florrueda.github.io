@@ -273,23 +273,13 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
-  position: relative;
+  height: 80vh;
 }
 
 @media (min-width: 992px) {
   #hero {
     padding-left: 160px;
   }
-}
-
-#hero:before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
 }
 
 #hero h1 {
