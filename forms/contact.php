@@ -18,7 +18,7 @@ $message .= "Enviado el dia: " . date('d/m/Y', time());
 $to = $receiving_email_address;
 $subject = 'Mail enviado desde pagina web de flor';
 
-mail($to, $subject, utf8_decode($message), $header);
+mail($to, $subject,  mb_convert_encoding($message, "UTF-8", mb_detect_encoding($message)), $header);
 
 header('Location: index.html');
 
