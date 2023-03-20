@@ -1,4 +1,7 @@
 <?php
+echo "respuesta";
+exit;
+
 $receiving_email_address = 'flor.rueda@gmail.com';
 
 
