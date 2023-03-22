@@ -8,6 +8,8 @@ This is a personal project in which I wanted to incorporate my CV and portfolio 
 I used a Bootstrapmade template because I liked the design and the features included. 
 I made the necessary changes to fit my needs.
 
+URL project: https://florrueda.github.io/
+
 #
 Template Name: MyResume
 
