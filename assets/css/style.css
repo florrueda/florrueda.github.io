@@ -421,6 +421,10 @@ section {
   margin-bottom: 0;
 }
 
+.skills-content ul {
+  list-style: none;
+}
+
 
 /*--------------------------------------------------------------
 # Resume
